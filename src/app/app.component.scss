@@ -1,0 +1,39 @@
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 0.5rem black;
+    
+    
+
+    background-image: linear-gradient(to bottom right,var(--primary--color),red);
+    height: 60rem;
+    width:70%;
+ 
+   
+    margin:auto auto;
+
+   
+  
+}
+
+.main_photos{
+    display: flex;
+    justify-content: space-between;
+  
+    &_img_1{
+        height: 2.5rem;
+        width: 2.5rem;    
+    }
+
+
+    
+}
+
+
+.photos-header {
+    font-size: 2.6rem;
+    color: var(--font--color) ;
+}
