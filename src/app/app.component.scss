@@ -2,38 +2,49 @@
 
 
 .main{
-    display: flex;
-    justify-content: center;
+     
     box-shadow: 0 0 0.5rem black;
     
-    
-
-    background-image: linear-gradient(to bottom right,var(--primary--color),red);
+    background-image: linear-gradient(to bottom right,var(--primary--color),rgb(155, 32, 32));
     height: 60rem;
     width:70%;
  
    
-    margin:auto auto;
+    margin:0 auto;
 
-   
-  
-}
-
-.main_photos{
-    display: flex;
-    justify-content: space-between;
-  
-    &_img_1{
-        height: 2.5rem;
-        width: 2.5rem;    
+    &_photos-header {
+        display: flex;
+        justify-content: center;
+        font-size: 2.6rem ;
+        color: var(--font--color) ;
     }
 
-
-    
+   
+    &_main-photos{
+        display: flex;
+        justify-content: center;
+      
+        &_img_1{
+            height: 2.5rem;
+            width: 2.5rem;    
+        }
+  
 }
 
+&_info{
+    flex: 0 0 60%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    
+    display: flex;
+    font-size:2.5rem;
 
-.photos-header {
-    font-size: 2.6rem;
-    color: var(--font--color) ;
+    &_text{
+        font-size: 2.5rem;
+        
+    }
+ 
+}
+
 }
